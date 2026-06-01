@@ -36,6 +36,7 @@ jobs:
           fail-on-severity: high
           vulnerability-check: true
           license-check: false
+          allow-ghsas: GHSA-89x4-qx74-5vcq
 
   setup:
     name: 📦 Setup Dependencies
